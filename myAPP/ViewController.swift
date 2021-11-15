@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var emailTxtFld: UITextField!
+    @IBOutlet weak var resNotificationLbl: UILabel!
+
+    @IBAction func loginfunc(_ sender: Any)
+    {
+        if emailTxtFld.text == "example@gmail.com"
+        {
+            resNotificationLbl.text = "success"
+        }
+        else
+        {
+            resNotificationLbl.text = "fail"
+        }
+       
     }
-
-
+    
 }
 
