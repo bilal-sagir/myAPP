@@ -7,8 +7,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController
+{
     @IBOutlet weak var emailTxtFld: UITextField!
     @IBOutlet weak var resNotificationLbl: UILabel!
 
